@@ -32,6 +32,15 @@ The tool's success stems from its integration of rigorous mathematical foundatio
   \]$$
   where $$\( \alpha = 0.5 \)$$ under the Riemann Hypothesis, governing the refinement and validation process.
 
+- The tool operates on a **polynomial scaling model** with logarithmic correction, ensuring that both power-law decay and oscillatory growth are captured accurately:
+- **Polynomial Scaling**:
+  $$\[
+  W(r) \sim c r^{-\alpha} \log(r),
+  \]$$
+  where $$\( \alpha > 0 \)$$ reflects the amplitude decay rate. This power-law term governs the overall behavior of spacing predictions.
+- **Logarithmic Correction**:
+  The logarithmic component captures the slower growth rate of zero contributions at larger values of $$\( r \)$$.
+
 ### 5. **Coefficient of Variation**
 - Maintains a CV of **17%**, reflecting low variability relative to the mean, which ensures consistent outputs across datasets.
 
@@ -40,6 +49,8 @@ The tool's success stems from its integration of rigorous mathematical foundatio
 
 ### 7. **Numerical Stability**
 - Designed with high-precision arithmetic using `mpmath`, allowing robust handling of oscillatory terms and minimizing numerical artifacts.
+
+  
 
 ---
 
@@ -54,6 +65,8 @@ The tool's success stems from its integration of rigorous mathematical foundatio
   - Outputs validated and invalidated predictions for analysis.
 - **Visualization**:
   - Produces scatter plots for validated and invalid zeros, aiding in identifying trends or anomalies.
+
+
 
 ---
 
