@@ -148,6 +148,3 @@ Contributions are welcome! Feel free to open issues or submit pull requests for 
 
 This project is open-sourced under the Apache License. See `LICENSE` for more details.
 
----
-
-Let me know if you’d like further refinements or additional sections!
