@@ -108,29 +108,29 @@ python zeta-model.py --file_path zeta.txt --num_predictions 10000
 ## **Mathematical Details**
 
 ### **1. Zeta Function and Magnitude**
-The tool calculates the magnitude of the Riemann zeta function at \( s = 0.5 + it \):
-\[
+The tool calculates the magnitude of the Riemann zeta function at $$\( s = 0.5 + it \)$$:
+$$\[
 |Z(s)| = |Z(0.5 + it)|,
-\]
+\]$$
 leveraging this magnitude to identify the oscillatory behavior critical for zero prediction.
 
 ### **2. Prediction Mechanism**
 Zeros are predicted using:
-\[
+$$\[
 t_{\text{new}} = t_{\text{last}} + \text{average spacing} + \text{oscillation}.
-\]
+\]$$
 
 ### **3. Residual Correction**
 Corrects predicted zeros using residuals between predictions and known zeros:
-\[
+$$\[
 \text{Residual} = t_{\text{predicted}} - t_{\text{closest known}}.
-\]
+\]$$
 
 ---
 
 ## **Validation Metrics**
 
-### **Precision**: \( 4.28 \times 10^{-7} \)
+### **Precision**: $$\( 4.28 \times 10^{-7} \)$$
 Ensures highly accurate predictions, critical for detecting subtle oscillatory behavior.
 
 ### **Coefficient of Variation (CV)**: **17%**
