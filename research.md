@@ -4,22 +4,22 @@
 ### I. Preliminaries and Classical Context
 
 1. **Definition of the Riemann Zeta Function**  
-   For a complex variable \( s \) with \(\mathrm{Re}(s) > 1\), the Riemann zeta function is defined by  
-   \[
+   For a complex variable $$\( s \)$$ with $$\(\mathrm{Re}(s) > 1\)$$, the Riemann zeta function is defined by  
+   $$\[
    \zeta(s) 
    \;=\; \sum_{n=1}^{\infty} \frac{1}{n^{\,s}}, 
    \qquad \text{Re}(s) > 1.
-   \]
-   It can be analytically continued to the entire complex plane except for a simple pole at \( s = 1 \) with residue \(1\).
+   \]$$
+   It can be analytically continued to the entire complex plane except for a simple pole at $$\( s = 1 \)$$ with residue $$\(1\)$$.
 
 2. **Functional Equation**  
-   A cornerstone property of \(\zeta(s)\) is the functional equation
-   \[
+   A cornerstone property of $$\(\zeta(s)\)$$ is the functional equation
+   $$\[
    \zeta(s) 
    \;=\;
    2^{\,s}\,\pi^{\,s-1}\,\sin\!\bigl(\tfrac{\pi s}{2}\bigr)\,\Gamma(1-s)\,\zeta(1-s),
-   \]
-   where \(\Gamma\) is the Gamma function. This symmetry often recasts information about \(\zeta\) on one side of the line \(\mathrm{Re}(s)=\tfrac12\) to the other side.
+   \]$$
+   where $$\(\Gamma\)$$ is the Gamma function. This symmetry often recasts information about \(\zeta\) on one side of the line $$\(\mathrm{Re}(s)=\tfrac12\)$$ to the other side.
 
 3. **Trivial and Nontrivial Zeros**  
    - **Trivial Zeros**: Located at the negative even integers \(-2, -4, -6, \dots\).  
